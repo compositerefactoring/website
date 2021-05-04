@@ -1,0 +1,36 @@
+h1{
+	font-size: 45px !important;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	background-color: #B0C4DE
+}
+
+.page-title{
+	border-bottom: 1px solid #c5c5c5;
+	background-color: #B0C4DE
+}
+
+small{
+	color: #777 !important;
+	background-color: #B0C4DE
+}
+
+
+p{
+	font-size: 14px;
+	color: #00539F;
+	background-color: #B0C4DE
+}
+
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #B0C4DE
+}
+
+.container-gral{
+	padding-top: 70px;
+	background-color: #B0C4DE
+}
