@@ -1,0 +1,29 @@
+	 <tr>
+					 <td style="color:#00539F">2.</td>
+					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1zYGQ2dcb-hblZi789HFvRIwdcawmgeJ0?usp=sharing">Groups of Complete Composites</a></td>
+					 <td style="color:#00539F">Groups of Complete Composites investigated in this study. PS: REFACT_VARIABLE (or rv) is equivalent to Refactorings NPS (Refactorings Not Previously Studied)</td>
+					 </tr>
+					 
+					 <tr>
+					 <td style="color:#00539F">3.</td>
+					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1fnuWNnnTSrzsa2QiAW06K2xTPSbpj5ZH?usp=sharing">Effect on Code Smells</a></td>
+					 <td style="color:#00539F">List of code smells affected or not by groups of complete composites</td>
+					 </tr>
+					 
+				   <tr>
+					 <td style="color:#00539F">4.</td>
+					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1lCtgeSaVvnSAIsCeN_kVyDaazvFDrlvY?usp=sharing">Effect of Complete Composites per Project</a></td>
+					 <td style="color:#00539F">List of code smells affect by complete composites in each project</td>
+					 </tr>
+				
+					 <tr>
+					 <td style="color:#00539F">5.</td>
+					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1XEnRqIYMgUZnUgRKbzny-laCuvKzzP5v?usp=sharing">Manual validation of Complete Composites</a></td>
+					 <td style="color:#00539F">Manual validation of Complete Composites</td>
+					 </tr>
+				   
+				   <tr>
+					 <td style="color:#00539F">6.</td>
+					 <td style="color:#00539F"><a href="https://docs.google.com/spreadsheets/d/1Jv3IXD5jywRog9UYQE6gcWEas4haUgTpsAyHw1riWFg/edit?usp=sharing">Details about Projects</a></td>
+					 <td style="color:#00539F">Number of commits, refactorings, classes and other data of projects</td>
+					 </tr>

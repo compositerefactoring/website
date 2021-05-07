@@ -26,7 +26,7 @@
 
 		<div class="page-title">
 			<h1>
-				<center>Look Ahead! Revealing Complete CompositeRefactorings and their Smelliness Effects <br>
+				<center>Look Ahead! Revealing Complete Composite Refactorings and their Smelliness Effects <br>
 			</h1>
 		</div>
 		<br>
@@ -37,13 +37,30 @@
 		</p>
 
 		<h3 id="abstract" class="page-header">Abstract</h3>
-		<p class="text-justify">Code refactoring is a common practice in software maintenance. A single refactoring is a code transformation that aims to improve the internal software quality. 
-		Recent studies have revealed that developers often apply composite refactorings (or,simply, composites). A composite consists of two or more interrelated transformations (refactorings) applied together. Previous studies characterized composites and investigated whether and how they remove poor structures – i.e., code smells. A composite refactoring is considered "complete" whenever it completely removes one target code smell.
-		They proposed descriptions of complete composites with recommendations to remove certaincode smell types, such as Long Methods and Feature Envies. These studies also present different recommendations to remove the same code smell type. 
-		However, these studies: (i) are limitedto composite refactorings only consisting of a small subset of Fowler’s refactoring types, (ii) did not detail the scenarios in which each recommendation can be applied to remove the code smell, and (iii) fail in reporting possible side effects of the described composites, such as adversely introducing certain smell types.
-		This paper aims to cover these limitations by performinga systematic analysis of 618 complete composites on removing four common smell types identified in 20 software projects.
-		Our results indicated that: (i) 64% complete composites consisted ofrefactoring types not covered by existing descriptions of complete composites, and (ii) 36% complete composites formed by at least one Extract Method can introduce Feature Envies and Intensive Couplings. This information is not documented by existingdescriptions, and it can alert developers about alternatives toremoveFeature Envy, mainly in methods that are fully envious.These results suggest existing descriptions of complete compositesshould be either revisited or enhanced to explicitly highlightknown side effects. As the main contribution, we present a catalogof composites with details about side effects, recommendation to remove or minimize them, and some scenarios in which each recommendation can be applied to remove the code smell. Also, we provide a real examples in which this catalog was applied inpractice. Our catalog can be useful to improve existing toolingsupport for refactorings, such as IDEs, informing about possibleside effects when refactorings are composed.</p>
-
+		<p class="text-justify"> Code refactoring is a common practice in software maintenance. 
+		A single refactoring is a code transformation that aims to improve the internal software quality. 
+		Recent studies have revealed that developers often apply composite refactorings (or, simply, composites).
+		 A composite consists of two or more interrelated transformations (refactorings) applied together.
+		  Previous studies characterized composites and investigated whether and how they remove poor structures 
+		  -- i.e., code smells. A composite refactoring is considered ``complete'' whenever it completely removes 
+		  one target code smell. They proposed descriptions of complete composites with recommendations to remove 
+		  certain code smell types, such as Long Methods and Feature Envies. These studies also present 
+		  different recommendations to remove the same code smell type. However, these studies: (i) are limited to 
+		  composite refactorings only consisting of a small subset of Fowler's refactoring types, (ii) did not detail
+		   the scenarios in which each recommendation can be applied to remove the code smell, and (iii) fail in 
+		   reporting possible side effects of the described composites, such as adversely introducing certain smell types. 
+		   This paper aims to cover these limitations by performing a systematic analysis of 618 complete 
+		   composites on removing four common smell types identified in 20 software projects. Our results 
+		   indicated that: (i) 64% complete composites consisted of refactoring types not covered by existing 
+		   descriptions of complete composites, and (ii) 36% complete composites formed by Extract Methods 
+		   can introduce Feature Envies and Intensive Couplings. This information is not documented 
+		   by existing descriptions, and it can alert developers about alternatives to remove Feature Envy, 
+		   mainly in methods that are fully envious. These results suggest existing descriptions of complete composites 
+		   should be either revisited or enhanced to explicitly highlight known side effects. As the main contribution, 
+		   we present a catalog of composites with details about side effects, recommendations to remove or minimize them, 
+		   and some scenarios in which each recommendation can be applied to remove the code smell. Also, we provide real 
+		   examples in which this catalog was applied in practice. Our catalog can be useful to improve existing tooling
+		   support for refactorings, such as IDEs, informing about possible side effects when refactorings are composed. </p>
 		<h3 id="downloads" class="page-header">Downloads </h3>
 		<table class="table table-striped">
 			<thead>
@@ -53,41 +70,37 @@
 					<th>Description</th>
 					
 					 <tr>
-					 <td style="color:#00539F">1.</td>
-					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1bjABogUDR7cjjHQTSNqK_DMwBIwdX6CD?usp=sharing">Complete Composites</a></td>
-					 <td style="color:#00539F">All Complete Composites investigated in this study</td>
+					 <td>1.</td>
+					 <td><a href="https://drive.google.com/drive/folders/1vbZ1g6m9xEcvwdAU16VFzZVebSY88urG?usp=sharing">Composite Refactorings</a></td>
+					 <td>All Composite Refactorings investigated in this study.</td>
 					 </tr>
 					 
 					 <tr>
-					 <td style="color:#00539F">2.</td>
-					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1zYGQ2dcb-hblZi789HFvRIwdcawmgeJ0?usp=sharing">Groups of Complete Composites</a></td>
-					 <td style="color:#00539F">Groups of Complete Composites investigated in this study. PS: REFACT_VARIABLE (or rv) is equivalent to Refactorings NPS (Refactorings Not Previously Studied)</td>
+					 <td>2.</td>
+					 <td><a href="https://mega.nz/folder/2JpyEQiS#Op2fd16ColMmXRMvc6yv5w">Code Smells</a></td>
+					 <td>All Code Smells investigated in this study. PS: We are making the upload of these files. When the upload to finish, we will warn here. Thank you for your comprehension.</td>
 					 </tr>
 					 
 					 <tr>
-					 <td style="color:#00539F">3.</td>
-					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1fnuWNnnTSrzsa2QiAW06K2xTPSbpj5ZH?usp=sharing">Effect on Code Smells</a></td>
-					 <td style="color:#00539F">List of code smells affected or not by groups of complete composites</td>
+					 <td>3.</td>
+					 <td><a href="https://drive.google.com/drive/folders/1lCtgeSaVvnSAIsCeN_kVyDaazvFDrlvY?usp=sharing">The Effect of Composites on Code Smells</a></td>
+					 <td>The effect of Composite Refactorings on Code Smells investigated in this study.</td>
 					 </tr>
-					 
-				   <tr>
-					 <td style="color:#00539F">4.</td>
-					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1lCtgeSaVvnSAIsCeN_kVyDaazvFDrlvY?usp=sharing">Effect of Complete Composites per Project</a></td>
-					 <td style="color:#00539F">List of code smells affect by complete composites in each project</td>
-					 </tr>
-				
+					
 					 <tr>
-					 <td style="color:#00539F">5.</td>
-					 <td style="color:#00539F"><a href="https://drive.google.com/drive/folders/1XEnRqIYMgUZnUgRKbzny-laCuvKzzP5v?usp=sharing">Manual validation of Complete Composites</a></td>
-					 <td style="color:#00539F">Manual validation of Complete Composites</td>
-					 </tr>
-				   
-				   <tr>
-					 <td style="color:#00539F">6.</td>
-					 <td style="color:#00539F"><a href="https://docs.google.com/spreadsheets/d/1Jv3IXD5jywRog9UYQE6gcWEas4haUgTpsAyHw1riWFg/edit?usp=sharing">Details about Projects</a></td>
-					 <td style="color:#00539F">Number of commits, refactorings, classes and other data of projects</td>
+					 <td>4.</td>
+					 <td><a href="https://drive.google.com/drive/folders/1SxpIVm0xp2f2FtX5-lowW6nud9cVh4Mb?usp=sharing">Complete Composites</a></td>
+					 <td>All Complete Composites investigated in this study.</td>
 					 </tr>
 					 
+					 <tr>
+					 <td>5.</td>
+					 <td><a href="https://drive.google.com/drive/folders/19n4Rp4ut6WGG8dXu9X4A3_HqyXh8xnYN?usp=sharing">(Side) Effects of Complete Composites</a></td>
+					 <td>(Side) Effects of Types of Complete Composites investigated in this study.</td>
+					 </tr>
+					 
+					 
+					 		 
 							
 				</tr>
 			</thead>
@@ -97,6 +110,8 @@
 
 			</tbody>
 		</table>
+		
+		<p>PS: We will available the metadata about manual validation of complete composites and side effects as soon as possible.</p>
 
 		<h3 class="page-header" id="authors">Authors</h3>
 
